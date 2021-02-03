@@ -29,3 +29,9 @@ p {
   color: #34ff33;
   font-size: 3em;
 }
+
+.hest {
+  height: 15em;
+  width: auto;
+  margin: 5%;
+}
