@@ -5,11 +5,12 @@
     <title>Index</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/search.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js" charset="utf-8"></script>
-    <script type="text/javascript" defer src="javascript/search.js"></script>
+    <script type="text/javascript" defer src="search.js"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -24,16 +25,38 @@
       </header>
       <main>
         <div class="hero-image">
-          <div class="hero-text">
+          <!-- <div class="hero-text">
            <h1>Find din nye frisør her!</h1>
             <input class=search type="text" placeholder="Indtast postnummer">
             <button> <a href="kalender.html">Søg</a></button>
+          </div> -->
+          <div class="hero-text">
+              <h1>Velkommen til TinyTools</h1>
           </div>
         </div>
 
+        <div class="container4">
+          <div class="title-container">
+            <h1 class="title">Find din nye frisør her!</h1>
+            <h1 class="title-down">Finder frisører nær dig...</h1>
+          </div>
+
+          <fieldset class="field-container">
+            <input type="text" placeholder="Indtast postnummer" class="field" />
+            <div class="icons-container">
+              <div class="icon-search"></div>
+              <div class="icon-close">
+                <div class="x-up"></div>
+                <div class="x-down"></div>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+
         <h2>Populære saloner</h2>
-        <!-- indsæt slideshow -->
+        <img name="slide" width="400" height="auto" />
       </main>
+
       <footer>
 
         <div class="container2">
