@@ -34,6 +34,100 @@
               <li>Job og karriere</li>
             </ul>
           </div>
+          <div class="wrapper">
+            <div class="container">
+            <div class="calendar">
+              <div class="front">
+                <div class="current-date">
+                  <h1>mandag den 5.</h1>
+                  <h1>marts 2021</h1>
+                </div>
+                <div class="current-month">
+                  <ul class="week-days">
+                    <li>MON</li>
+                    <li>TUE</li>
+                    <li>WED</li>
+                    <li>THU</li>
+                    <li>FRI</li>
+                    <li>SAT</li>
+                    <li>SUN</li>
+                  </ul>
+                  <div class="weeks">
+                    <div class="first">
+                      <span onclick="FunctionPop()"><p>01</p></span>
+                      <span onclick="FunctionPop()"><p>02</p></span>
+                      <span onclick="FunctionPop()"><p>03</p></span>
+                      <span onclick="FunctionPop()"><p>04</p></span>
+                      <span class="active">05</span>
+                      <span onclick="FunctionPop()"><p>06</p></span>
+                      <span onclick="FunctionPop()"><p>07</p></span>
+                    </div>
+                    <div class="second">
+                      <span onclick="FunctionPop()"><p>08</p></span>
+                      <span onclick="FunctionPop()"><p>09</p></span>
+                      <span onclick="FunctionPop()"><p>10</p></span>
+                      <span onclick="FunctionPop()"><p>11</p></span>
+                      <span onclick="FunctionPop()"><p>12</p></span>
+                      <span onclick="FunctionPop()"><p>13</p></span>
+                      <span onclick="FunctionPop()"><p>14</p></span>
+                    </div>
+                    <div class="third">
+                      <span onclick="FunctionPop()"><p>15</p></span>
+                      <span onclick="FunctionPop()"><p>16</p></span>
+                      <span onclick="FunctionPop()"><p>17</p></span>
+                      <span onclick="FunctionPop()"><p>18</p></span>
+                      <span onclick="FunctionPop()"><p>19</p></span>
+                      <span onclick="FunctionPop()"><p>20</p></span>
+                      <span onclick="FunctionPop()"><p>21</p></span>
+                    </div>
+                    <div class="fourth">
+                      <span onclick="FunctionPop()"><p>22</p></span>
+                      <span onclick="FunctionPop()"><p>23</p></span>
+                      <span onclick="FunctionPop()"><p>24</p></span>
+                      <span onclick="FunctionPop()"><p>25</p></span>
+                      <span onclick="FunctionPop()"><p>26</p></span>
+                      <span onclick="FunctionPop()"><p>27</p></span>
+                      <span onclick="FunctionPop()"><p>28</p></span>
+                    </div>
+                    <div class="fifth">
+                      <span onclick="FunctionPop()"><p>29</p></span>
+                      <span onclick="FunctionPop()"><p>30</p></span>
+                      <span onclick="FunctionPop()"><p>31</p></span>
+                      <span class="last-month">01</span>
+                      <span class="last-month">02</span>
+                      <span class="last-month">03</span>
+                      <span class="last-month">04</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="information-box">
+            <div id="popup">
+              <h3 id="date">date</h3>
+            </div> <br>
+            <label for="range">Pris:</label>
+              <input type="range" min="0,-" max="600,-" name="pris"></input>
+            <label>Vælg kategori:</label>
+              <input list="frisør" name="frisør"></input>
+                <datalist id="frisør">
+                  <option value="Here klip">
+                  <option value="Dame klip">
+                  <option value="Hårfarvening">
+                  <option value="Kurbehandling">
+                  <option value="Håropsætning">
+                  <option value="Permanent krøller">
+                </datalist> <br><br>
+                <h4>placering:</h4>
+                <img class="map" src="img/map.png" alt="kort"><br>
+                <button type="button" class="btn1" name="button">Reset filter</button>
+                <button type="button" class="btn2" name="button">Søg</button>
+            </div>
+          </div>
+
+
+        <script src="js_kalender/script.js"></script>
           <div class="col">
             <ul>
               <li class="bold">Betalingsmuligheder</li>
