@@ -23,7 +23,7 @@ h3{
   color:white;
 }
 
-.wrapper {
+.wrapper2 {
   display: flex;
   justify-content: center;
   margin-top: 100px;
@@ -40,7 +40,7 @@ h3{
 .calendar {
 	background: white;
 	border-radius: 4px;
-	height: 501px;
+	height: 510px;
 }
 
 /* ----------- */
@@ -51,11 +51,13 @@ h3{
 	display: flex;
 	justify-content: space-between;
 	padding: 30px 40px;
+
 }
 
 .current-date h1 {
 	font-size: 1.4em;
 	font-weight: 300;
+  color: black;
 }
 
 .week-days {
@@ -122,7 +124,7 @@ h3{
 
 
 .map {
-  width: 420px;
+  width: 440px;
   height: 300px;
 }
 
@@ -133,6 +135,8 @@ border: solid #39592F 2px;
 border-radius: 4px;
 width: 208px;
 font-size: 16px;
+color: black;
+margin-left: 0;
 }
 
 .btn2 {
@@ -140,7 +144,8 @@ background-color: #39592F;
 padding: 20px 40px;
 border: solid #39592F 2px;
 border-radius: 4px;
-color: white;
+
+
 width: 208px;
 font-size: 16px;
 }
