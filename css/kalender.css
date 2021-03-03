@@ -51,11 +51,13 @@ h3{
 	display: flex;
 	justify-content: space-between;
 	padding: 30px 40px;
+
 }
 
 .current-date h1 {
 	font-size: 1.4em;
 	font-weight: 300;
+  color: black;
 }
 
 .week-days {
