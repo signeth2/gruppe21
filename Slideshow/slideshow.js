@@ -3,11 +3,11 @@ var images = [];
 var time = 3000;
 
 // Billede liste
-images[0] = "frisoer.jpg";
-images[1] = "frisoer1.jpg";
-images[2] = "frisoer2.jpg";
-images[3] = "frisoer3.jpg";
-images[4] = "frisoer4.jpg";
+images[0] = "Slideshow/frisoer.jpg";
+images[1] = "Slideshow/frisoer1.jpg";
+images[2] = "Slideshow/frisoer2.jpg";
+images[3] = "Slideshow/frisoer3.jpg";
+images[4] = "Slideshow/frisoer4.jpg";
 
 // Billede skift
 function changeImg() {
