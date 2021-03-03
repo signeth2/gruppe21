@@ -1,0 +1,318 @@
+/*forside kunde*/
+body{ 
+    margin: 0;
+    padding: 0;
+    background: rgba(245, 239, 229, 0.36);
+    
+}
+
+.logo{
+    background-image: url(images/logo2.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+
+#book, #opret{
+    font-size: 30px;
+    border: none;
+    background-color: #c7a067;
+    border-radius: 0px;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    margin-top: 20px;
+    width: 250px;
+    border-radius: 40px;
+    height: 60px;
+}
+
+#book{
+    margin-top: 200px;
+}
+   
+.book_opret{
+    text-decoration: none;
+    color: #f5efe5;
+    text-align: center;
+}
+
+.btn-container{
+    margin-top: 150px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/*services*/
+.welcome{
+text-align: center;
+margin-top: 130px;
+font-family: 'Montserrat', sans-serif;
+color: #707070;
+font-size: 12px;
+}
+
+#undertitel{
+    font-size: 15px;
+}
+
+.services{
+ font-family: 'Montserrat', sans-serif;
+ color: #F5EFE5;
+ text-decoration: none;
+ font-size: 20px;  
+}
+
+
+#klipning, #barbering{ 
+    text-align: center;
+    background-color: #c7a067;
+   border: none;
+   width: 225px;
+   height: 100px;
+   border-radius: 40px;
+   margin-top: 15px;
+}
+
+#klipning{
+    margin-top: 200px;
+}
+.btn-container2{
+    margin-top: 150px;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#back{
+   border: none;
+   font-size: 40px;
+   color: #c7a067;
+   margin-top: 370px;
+   margin-left: 70px;
+   background: none;
+}
+
+.icons_text{
+    color: #c7a067;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5EFE5;
+    width: 100%;
+    margin-top: 75px;
+  }
+  
+  #footer{
+    text-align: center;
+    display: flex;  
+    bottom: 0;  
+    position: absolute;
+    width: 100%;
+ }
+
+ .icons{
+     font-size: 25px;
+     margin-top: 25px;
+ }
+
+ /*tider*/
+
+ #back2{
+    border: none;
+    font-size: 40px;
+    color: #c7a067;
+    margin-top: -70px;
+    margin-left: 70px;
+    background: none;
+ }
+.backcontainer{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    position: fixed;
+   margin-top: 500px;
+}
+
+ .tider{
+    font-family: 'Montserrat', sans-serif;
+    color: #F5EFE5;
+    text-decoration: none;
+    font-size: 20px;  
+   }
+   
+   
+   #tid1, #tid2, #tid3, #tid4{ 
+       width:200px;
+       margin:20px auto;
+       border: none;
+       background-color: #c7a067;
+       height: 80px;
+       border-radius: 40px;
+       display: block;
+    }
+
+   .tid-container{
+       width:200px;
+       margin:120px auto;
+       margin-top: 180px;
+       color: black;
+       display: block;
+    }
+
+     #ledig1, #ledig2, #ledig3, #ledig4, #ledig5, #ledig6{ 
+        width:200px;
+        margin:10px;
+        border: none;
+        background-color: #c7a067;
+        height: auto;
+        border-radius: 40px;
+        color: #39592F;
+     }
+
+    
+     li{
+         list-style: none;
+         width:200px;
+         margin: auto;
+         float: left;
+         display: block;
+     }
+
+
+     .container {
+        width: 300px;
+        margin: auto;
+        display: flex;
+        margin-top: 180px;
+       
+    }
+    .first {
+        width: auto;
+        margin-right: 20px;
+        margin-top: -2px;
+        text-align: center;
+        line-height: 28.5px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+    }
+    #second {
+        width: 200px;
+        height: 300px;
+        
+    }
+
+    #tirsdag{
+        color: black;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+    }
+
+
+    .back-text{
+        text-align: center;
+        font-size: 20px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    #knaptekst{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: #c7a067;
+        text-align: center;  
+    }
+
+    #knap{
+       font-size: 20px;
+       border: none;
+       background: none;
+       color: #c7a067;
+    }
+
+    /*bekræftelse*/
+
+    #oprettet{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: #F5EFE5;
+        text-align: center;  
+        background-color: #c7a067;
+        width: 300px;
+        height: 100px;
+        border-radius: 40px;
+        margin: auto;
+         padding: 10px;
+         margin-top: 50px;
+    
+    }
+
+    #dine_tider{
+        line-height: 60px;
+       font-size: 15px;
+    }
+   
+    
+    #thumbsup{
+       font-size: 200px;
+       margin-top: 175px;
+       text-align: center;
+    }
+
+    #knaptekst2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: #c7a067;
+        text-align: center;  
+        margin-top: 300px;
+    }
+
+    #knap2{
+       font-size: 20px;
+       border: none;
+       background: none;
+       color: #c7a067;
+    }
+
+    .back-text2{
+        text-align: center;
+        font-size: 20px;
+        text-decoration: none;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+   /*salon*/
+   #hd1, #hd2{ 
+    text-align: center;
+    background-color: #c7a067;
+   border: none;
+   width: 225px;
+   height: 150;
+   border-radius: 40px;
+   margin-top: 50px;
+}
+
+#hd1{
+    margin-top: 200px;
+}
+.hairdresser-container{
+    margin-top: 150px;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+    
