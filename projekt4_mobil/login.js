@@ -9,7 +9,7 @@ loginButton.addEventListener("click", (e) => {
 
     if (username === "login.frisor" && password === "login.frisor") {
         
-        location.replace("tider.html")
+        location.replace("tider.frisor.html")
     } else {
         loginErrorMsg.style.opacity = 1;
     }
