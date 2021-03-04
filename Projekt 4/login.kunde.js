@@ -7,7 +7,7 @@ loginButton.addEventListener("click", (e) => {
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
-    if (username === "1" && password === "2") {
+    if (username === "login.kunde" && password === "login.kunde") {
         
         location.replace("service-kunde.html")
     } else {
