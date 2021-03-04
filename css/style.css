@@ -163,6 +163,10 @@ footer {
   opacity: 0.75;
 }
 
+.slideshow {
+  margin-left: 26%;
+}
+
 /*login*/
 #back {
   color: #C7A067;
