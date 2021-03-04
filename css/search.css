@@ -22,7 +22,7 @@
  .container4 {
 	 font-family: 'Montserrat', sans-serif;
 	 position: relative;
-	 width: 80%;
+	 width: 100%;
 	 height: 40vh;
 	 background-color: #C7A067;
 	 display: flex;
@@ -30,12 +30,11 @@
 	 align-items: center;
 	 transition: background-color 1.25s ease-in-out;
    margin-top: 5%;
-   margin-left: 10%;
-   border-radius: 40px;
 }
- .container4.is-focus {
+ /*.container4.is-focus {
 	 background-color: #C7A067;
-}
+}*/
+
  .title-container {
 	 position: absolute;
 	 top: 38%;
